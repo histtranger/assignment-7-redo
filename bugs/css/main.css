@@ -128,14 +128,15 @@ nav li:hover {
 }
 
 .dasbut {
-    position: relative;
+    position: absolute;
     color: white;
     box-shadow: 0 2px 4px rgba(0,0,0.7);
     text-decoration: none;
+    left: 50%;
     transform: translateX(-50%);
     background-image: linear-gradient(180deg, #6fc000, #388200);
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
     padding: 0.4em 1em 0.5em;
     bottom: 15px;
 }
@@ -146,12 +147,12 @@ nav li:hover {
 
 footer {
     background-color: #A79080;
-    padding: 2em;
+    padding: 1em;
     margin: 0 0 0 0;
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 4em;
     text-align: center;
-    color: #A79080;
+    color: #512200
 }
