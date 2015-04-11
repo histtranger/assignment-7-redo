@@ -12,6 +12,11 @@ body {
     padding: 0;
 }
 
+div {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-position: center center;
     background-image: url(../images/swirly.png);
@@ -59,7 +64,7 @@ li {
 a {
     color: white;
     text-decoration: none;
-    font-size: 1.5em
+    font-size: 1.4em
 }
 
 .nav {
@@ -116,7 +121,7 @@ nav li:hover {
     overflow: hidden;
 }
 
-.beetle {
+.what {
   float: left;
   position: relative;
   width: 50%;
@@ -141,7 +146,7 @@ nav li:hover {
 
 footer {
     background-color: #A79080;
-    padding: 3em;
+    padding: 2em;
     margin: 0 0 0 0;
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
@@ -150,8 +155,3 @@ footer {
     text-align: center;
     color: #A79080;
 }
-
-
-
-
-
